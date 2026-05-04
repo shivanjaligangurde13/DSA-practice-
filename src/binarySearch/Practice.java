@@ -1,3 +1,5 @@
+package binarySearch;
+
 public class Practice {
     public static void main(String[] args) {
         int[] arr = {-18,-12,-4,0,2,3,4,15,16,18,22,45,89};
@@ -25,11 +27,11 @@ public class Practice {
                 if(target<arr[mid]){
                     end = mid - 1;
                 }else {
-                    start = mid - 1;
+                    start = mid + 1;
                 }
             }else{
                 if(target<arr[mid]){
-                    start = mid - 1;
+                    start = mid + 1;
                 }else {
                     end = mid - 1;
                 }
