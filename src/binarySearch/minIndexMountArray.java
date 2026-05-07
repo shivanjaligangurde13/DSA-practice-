@@ -4,7 +4,7 @@ public class minIndexMountArray {
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5,3,1};
         int target = 3;
-        int index = search(arr,target);
+        int index = findInMountainArray(arr,target);
         System.out.println(index);
     }
 
